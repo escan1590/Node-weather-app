@@ -79,7 +79,13 @@ h2 {
 }
 
 .answer {
-  font-size: 2rem;
+  font-size: 1rem;
+}
+.desc {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: rgba(28, 80, 133, 0.911);
+  font-weight: bold;
 }
 footer {
   color: #000;

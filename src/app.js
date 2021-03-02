@@ -89,7 +89,7 @@ app.get("/weather", (req, res) => {
         weather.cloudcover !== 0
           ? "The time is clear throught the day."
           : "The time is covered."
-      } It is currently ${weather.temperature} degress out. There is ${
+      } It is currently ${weather.temperature} degrees out. There is ${
         weather.precip
       }% chance of rain.`;
 

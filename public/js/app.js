@@ -8,7 +8,7 @@ const weatherLocation = async function (address) {
   try {
     text.textContent = "loading...";
     img.setAttribute("src", "");
-    const res = await fetch(`http://localhost:3000/weather?address=${address}`);
+    const res = await fetch(`/weather?address=${address}`);
     const data = await res.json();
 
     if (data.error) {
